@@ -20,7 +20,7 @@ EXPOSE 3000
 ENV DB_USER=admin
 ENV DB_PASSWORD=redhat
 ENV DB_NAME=movie_db
-ENV AWS_REGION=ap-south-1
+ENV AWS_REGION=eu-north-1
 
 # Start the application
 CMD [ "node", "app.js" ]
